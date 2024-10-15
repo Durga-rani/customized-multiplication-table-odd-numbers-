@@ -1,0 +1,30 @@
+//multiplicatin using for loop to print odd numbers
+#include <stdio.h>
+
+int main() 
+{
+    int n,i,prod;
+    printf("enter a table name:");
+    scanf("%d",&n);
+    
+   
+    for (i=1;i<=10;i++)
+    {
+         if (i%2!=0)
+         {
+        prod=i*n;
+        printf("%d*%d=%d\n",n,i,prod);
+    }
+        
+    }
+    
+
+    return 0;
+}
+Output:
+enter a table name:16
+16*1=16
+16*3=48
+16*5=80
+16*7=112
+16*9=144
